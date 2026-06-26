@@ -1,14 +1,3 @@
-<#
-.SYNOPSIS
-    Windows Optimizer - Master Orchestration Script
-.DESCRIPTION
-    Executes all optimization modules sequentially with safety checks.
-    Requires Administrator privileges.
-.NOTES
-    Version: 1.0.0
-    Author: Abdullah Ghaith
-#>
-
 param(
     [switch]$Restore,
     [switch]$SkipNIC,

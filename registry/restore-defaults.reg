@@ -1,9 +1,5 @@
 Windows Registry Editor Version 5.00
 
-; Windows Optimizer - Restore Default TCP/IP Settings
-; Replace YOUR_NIC_GUID with your adapter's InterfaceGuid.
-; Run: Get-NetAdapter | Select-Object Name, InterfaceGuid
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{YOUR_NIC_GUID}]
 "TcpAckFrequency"=-
 "TCPNoDelay"=-
