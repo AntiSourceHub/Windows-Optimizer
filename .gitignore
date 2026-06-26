@@ -1,0 +1,29 @@
+# Windows
+*.log
+*.tmp
+*.bak
+*.old
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PowerShell
+*.ps1xml
+Format.ps1xml
+
+# Script output
+output/
+*.zip
+
+# Environment
+.env
+.env.local
+
+# Editor
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Windows Optimizer - TCP/IP Registry Tweaks
+; Before importing, replace YOUR_NIC_GUID with your adapter's InterfaceGuid.
+; Run: Get-NetAdapter | Select-Object Name, InterfaceGuid
+;
+; Path: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{YOUR_NIC_GUID}
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{YOUR_NIC_GUID}]
+"TcpAckFrequency"=dword:00000001
+"TCPNoDelay"=dword:00000001
+"TcpDelAckTicks"=dword:00000000
+
+; MMCSS - Multimedia Class Scheduler
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:0000000a
+"SystemResponsiveness"=dword:0000000a
