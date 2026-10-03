@@ -1,6 +1,16 @@
-# Windows Optimizer
+<div align="center">
 
-PowerShell scripts and registry files that change how Windows 10 and 11 handle network traffic. Targets the TCP/IP stack, adapter behavior, and system scheduling for lower latency.
+# ⚡ Windows Optimizer
+
+**PowerShell scripts and registry configurations for optimizing the Windows 10/11 network stack, TCP/IP parameters, and system responsiveness.**
+
+[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
+[![License](https://img.shields.io/github/license/AntiSourceHub/Windows-Optimizer?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
 
 ## Project structure
 
